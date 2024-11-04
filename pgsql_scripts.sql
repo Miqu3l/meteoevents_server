@@ -1,4 +1,4 @@
-ALTER TABLE IF EXISTS public.usuaris DROP CONSTRAINT IF EXISTS usuari_fk_funcional;
+ALTER TABLE IF EXISTS public.usuaris DROP CONSTRAINT IF EXISTS "usuari_fk_funcional";
 ALTER TABLE IF EXISTS public.esdeveniments_usuaris DROP CONSTRAINT IF EXISTS esdeveniments_usuaris_fk_usr;
 ALTER TABLE IF EXISTS public.esdeveniments_usuaris DROP CONSTRAINT IF EXISTS esdeveniments_usuaris_fk_esd;
 ALTER TABLE IF EXISTS public.mesures_esdeveniments DROP CONSTRAINT IF EXISTS mesures_esdeveniments_fk_esd;
@@ -51,8 +51,8 @@ ALTER TABLE IF EXISTS usuaris
 
 INSERT INTO usuaris (nom_c, funcional_id, nom_usuari, contrasenya) VALUES ('Administrador', 'ADM', 'admin', 'admin24');
 INSERT INTO usuaris (nom_c, funcional_id, nom_usuari, contrasenya) VALUES ('Convidat', 'USR', 'convidat', 'convidat24');
-INSERT INTO usuaris (nom_c, funcional_id, nom_usuari, contrasenya, data_naixement, sexe, poblacio, email, telefon, descripcio) VALUES ('Joan Vidal Garcia', 'USR', 'jvidal', 'jvidal3', '15/12/1980', 'masculí', 'Malgrat de Mar', 'jvidal@gmail.com', 644589884, 'Dill. a Div. 7:00h a 15:00h');
-INSERT INTO usuaris (nom_c, funcional_id, nom_usuari, contrasenya, data_naixement, sexe, poblacio, email, telefon, descripcio) VALUES ('Mònica Vinyals Dalmau', 'USR', 'mvinyals', 'masdlfj', '28/2/1995', 'femení', 'Figueres', 'mvd95@gmail.com', 654878333, 'Contracte 3 mesos');
+INSERT INTO usuaris (nom_c, funcional_id, nom_usuari, contrasenya, data_naixement, sexe, poblacio, email, telefon, descripcio) VALUES ('Joan Vidal Garcia', 'USR', 'jvidal', 'jvidal3', '1980/12/15', 'masculí', 'Malgrat de Mar', 'jvidal@gmail.com', 644589884, 'Dill. a Div. 7:00h a 15:00h');
+INSERT INTO usuaris (nom_c, funcional_id, nom_usuari, contrasenya, data_naixement, sexe, poblacio, email, telefon, descripcio) VALUES ('Mònica Vinyals Dalmau', 'USR', 'mvinyals', 'masdlfj', '1995/2/28', 'femení', 'Figueres', 'mvd95@gmail.com', 654878333, 'Contracte 3 mesos');
 
 
 -- Esdeveniments
