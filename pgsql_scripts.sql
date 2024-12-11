@@ -127,6 +127,55 @@ INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) VALUES ('V
 INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) VALUES ('Precipitacio', 10, 'mm/h', 'informació i comunicació als usuaris, revisió desguassos i embornals', 1);
 INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) VALUES ('Precipitacio', 30, 'mm/h', 'avaluació de zones vulnerables, seguiment de rius i rieres, desviar trànsit si s''escau', 2);
 INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) VALUES ('Precipitacio', 60, 'mm/h', 'activació protocols de protecció civil, evacuació de zones inundables, assegurar estructures a l''aire lliure', 3);
+-- Inserciones de Vent
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Vent', 21, 'km/h', 'Fer una llista de tots els elements que puguin afectar als següents nivells d’alerta', 2);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Vent', 27, 'km/h', 'Assegurar totes les pancartes', 3);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Vent', 33, 'km/h', 'Desmontar pancartes, fixar escenari', 4);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Vent', 34, 'km/h', 'Cancelar esdeveniment', 5);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Vent', 34, 'km/h', 'Desmuntar tots els elements que puguin generar un perill', 5);
+
+
+-- Inserciones de Precipitacio
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Precipitacio', 0.5, 'mm/h', 'Informació i comunicació als usuaris', 2);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Precipitacio', 1, 'mm/h', 'Revisió desguassos i embornals', 3);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Precipitacio', 5, 'mm/h', 'Avaluació de zones vulnerables, seguiment de rius i rieres, desviar trànsit si s''escau', 4);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Precipitacio', 6, 'mm/h', 'Cancel·lació esdeveniment', 5);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Precipitacio', 6, 'mm/h', 'Activació protocols de protecció civil, evacuació de zones inundables, assegurar estructures a l''aire lliure', 5);
+
+
+-- Inserciones de Neu
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Neu', 0.5, 'mm/h', 'Informació i comunicació als usuaris', 2);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Neu', 1, 'mm/h', 'Revisió desguassos i embornals', 3);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Neu', 5, 'mm/h', 'Avaluació de zones vulnerables, seguiment de rius i rieres, desviar trànsit si s''escau', 4);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Neu', 6, 'mm/h', 'Cancel·lació esdeveniment', 5);
+
+INSERT INTO mesures (condicio, valor, valor_um, accio, nivell_mesura) 
+VALUES ('Neu', 6, 'mm/h', 'Activació protocols de protecció civil, evacuació de zones inundables, assegurar estructures a l''aire lliure', 5);
 
 
 -- Mesures prevenció esdeveniments
